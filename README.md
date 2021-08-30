@@ -10,11 +10,7 @@
 
 **_Description_**
 
-I will be building an app that creates an interactive way to experience the _Wire_'s list of "One Hundred Albums that Set the World on Fire."
-
-Background: In 1999 the British magazine of underground and experimental music created a list of albums that "should have ignited the world's imagination - but somehow got forgotten along the way." While the list itself is a treasure trove for music fans, the list has been forgetten in its own way--it is only accessible through the Internet Archive's Way Back Machine and fan-generated lists on secondary sites like Discogs. I want to make a web app that gathers these albums together with their original write-ups in a fun, accessible way, with access to hear the music through embedded YouTube videos and links to Spotify and Apple Music where they apply.
-
-Features of the app will include a search function, an individual page for each album, a complete list, and a "random album" feature.
+I will be creating an app where users can post albums that are released especially for Bandcamp Fridays. Since the beginning of the COVID-19 pandemic, the music hosting site Bandcamp has designated one Friday a month in which it waves all of its fees so that 100% of sales go directly to the artists. As of now, there is no centralized place where listeners can view a curated list of new releases. My app will allow users to update an open source list of new music released on Bandcamp Fridays each month.
 
 ---
 
