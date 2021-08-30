@@ -22,6 +22,7 @@ Features of the app will include a search function, an individual page for each 
 
 To prepare for my project I have mapped out the React structure by creating a Component Hierarchy Diagram, and have visualized the information in the backend with an Entity Relationship Diagram. I've also created a [Trello](https://trello.com/b/K74eYUEB/100-albums) board to plan my approach.
 
-[CHD](https://lucid.app/lucidchart/1083ae77-833e-4833-9cab-710206f75274/edit?page=0_0#)
+[CHD](https://i.imgur.com/ITSn3Jq.png)
 
-[ERD](https://lucid.app/lucidchart/efadc760-a18a-46aa-8d38-3940077d19f8/edit?beaconFlowId=D4A4C6AE5140E955&page=0_0#)
+[ERD](https://i.imgur.com/mN9cGsC.png)
+
