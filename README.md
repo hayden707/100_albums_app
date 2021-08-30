@@ -1,4 +1,4 @@
-# 100 Albums That Set The World On Fire
+# Friday Albums List
 
 ### Date: 8/29/21
 
