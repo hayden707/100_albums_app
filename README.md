@@ -24,5 +24,5 @@ To prepare for my project I have mapped out the React structure by creating a Co
 
 ![CHD](https://i.imgur.com/7r7j0zs.png)
 
-![ERD](https://i.imgur.com/60Bjz2r.png)
+![ERD](https://i.imgur.com/xiCXyTw.png)
 
