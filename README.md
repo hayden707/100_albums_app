@@ -22,7 +22,7 @@ Features of the app will include a search function, an individual page for each 
 
 To prepare for my project I have mapped out the React structure by creating a Component Hierarchy Diagram, and have visualized the information in the backend with an Entity Relationship Diagram. I've also created a [Trello](https://trello.com/b/K74eYUEB/100-albums) board to plan my approach.
 
-![CHD](https://i.imgur.com/eM1L4Ht.jpg)
+![CHD](https://i.imgur.com/7r7j0zs.png)
 
 ![ERD](https://i.imgur.com/60Bjz2r.png)
 
