@@ -13,5 +13,9 @@ router.put('/api/albums/:id', controllers.updateAlbum)
 router.delete('/api/albums/:id', controllers.deleteAlbum)
 
 router.post('/api/songs', controllers.createSong)
+router.get('/api/songs', controllers.getAllAlbums)
+router.get('/api/songs/:id', controllers.getSongById)
+router.put('/api/songs/:id', controllers.updateSong)
+router.delete('/api/songs/:id', controllers.deleteSong)
 
 module.exports = router
