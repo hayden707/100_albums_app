@@ -5,9 +5,7 @@ const createAlbum = async (req, res) => {
   try {
     const album = await new Album(req.body)
     await album.save()
-    return res.status(201).json({
-      album
-    })
+    return res.status(201).json({ album })
   } catch (error) {
     return res.status(500).json({ error: error.message })
   }

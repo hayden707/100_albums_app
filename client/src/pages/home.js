@@ -10,11 +10,10 @@ export default function Home() {
   useEffect(() => {
     async function getAlbums() {
       const res = await axios.get(`${BASE_URL}/albums`)
-      setAlbums(res.data)
+      setAlbums(res.data.albums)
     }
     getAlbums()
-  }, [])
-  console.log(albums, 'albums')
+  }, [BASE_URL])
 
   return (
     <div>
