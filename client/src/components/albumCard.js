@@ -10,6 +10,7 @@ export default function AlbumCard({ albums }) {
           <h4>{album.title}</h4>
           <p>Label: {album.label}</p>
           <p>Genre: {album.genre}</p>
+          <a href={album.link}>Link</a>
         </div>
       ))}
     </div>
