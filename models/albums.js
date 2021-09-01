@@ -7,7 +7,8 @@ const Album = new Schema(
     title: { type: String, required: true },
     label: { type: String, required: true },
     genre: { type: String, required: true },
-    image: { type: String, required: false }
+    image: { type: String, required: true },
+    link: { type: String, required: false }
   },
   { timestamps: true }
 )

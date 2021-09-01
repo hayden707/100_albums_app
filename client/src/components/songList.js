@@ -25,10 +25,9 @@ export default function SongList() {
 
   return (
     <div className="songPage">
-      <div classname="songList">
+      <div className="songList">
         {songs.map((song) => (
           <div key={song._id} className="albumList">
-            <p>{song.song}</p>
             <div dangerouslySetInnerHTML={{ __html: `${song.link}` }} />
           </div>
         ))}
