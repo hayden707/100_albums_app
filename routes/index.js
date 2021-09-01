@@ -18,4 +18,10 @@ router.get('/api/songs/:id', controllers.getSongById)
 router.put('/api/songs/:id', controllers.updateSong)
 router.delete('/api/songs/:id', controllers.deleteSong)
 
+router.post('/api/labels', controllers.createLabel)
+router.get('/api/labels', controllers.getAllLabels)
+router.get('/api/labels/:id', controllers.getLabelById)
+router.put('/api/labels/:id', controllers.updateLabel)
+router.delete('/api/labels/:id', controllers.deleteLabel)
+
 module.exports = router
