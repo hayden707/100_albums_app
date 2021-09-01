@@ -11,4 +11,4 @@ const Labels = new Schema(
   { timestamps: true }
 )
 
-module.exports = mongoose.model('songs', Song)
+module.exports = mongoose.model('labels', Labels)
