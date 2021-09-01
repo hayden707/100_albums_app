@@ -29,6 +29,7 @@ export default function SongList() {
         {songs.map((song) => (
           <div key={song._id} className="albumList">
             <p>{song.song}</p>
+            <div dangerouslySetInnerHTML={{ __html: `${song.link}` }} />
           </div>
         ))}
       </div>
