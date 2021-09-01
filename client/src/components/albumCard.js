@@ -5,9 +5,9 @@ export default function AlbumCard({ albums }) {
     <div className="albumCard">
       {albums.map((album) => (
         <div key={album._id} className="albumList">
-          <img src={album.image} />
-          <h4>Artist: {album.artist}</h4>
-          <h4>Album: {album.title}</h4>
+          <img className="albumCover" src={album.image} alt="Album Cover" />
+          <h4>{album.artist}</h4>
+          <h4>{album.title}</h4>
           <p>Label: {album.label}</p>
           <p>Genre: {album.genre}</p>
         </div>
