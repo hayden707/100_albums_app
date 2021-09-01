@@ -129,6 +129,72 @@ const deleteSong = async (req, res) => {
   }
 }
 
+//album controllers
+
+const createLabel = async (req, res) => {
+  try {
+    const label = await new Label(req.body)
+    await label.save()
+    return res.status(201).json({
+      label
+    })
+  } catch (error) {
+    return res.status(500).json({ error: error.message })
+  }
+}
+
+const getAllLabels = async (req, res) => {
+  try {
+    const label = await Label.find()
+    return res.status(200).json({ label })
+  } catch (error) {
+    return res.status(500).send(error.message)
+  }
+}
+
+const getLabelById = async (req, res) => {
+  try {
+    const { id } = req.params
+    const label = await Label.findById(id)
+    if (label) {
+      return res.status(200).json({ label })
+    }
+    return res.status(404).send('Label with the specified ID does not exists')
+  } catch (error) {
+    return res.status(500).send(error.message)
+  }
+}
+
+const updateLabel = async (req, res) => {
+  try {
+    const { id } = req.params
+    await Label.findByIdAndUpdate(id, req.body, { new: true }, (err, label) => {
+      if (err) {
+        res.status(500).send(err)
+      }
+      if (!label) {
+        res.status(500).send('Label not found!')
+      }
+      return res.status(200).json(label)
+    })
+  } catch (error) {
+    return res.status(500).send(error.message)
+  }
+}
+
+const deleteLabel = async (req, res) => {
+  try {
+    const { id } = req.params
+    const deleted = await Label.findByIdAndDelete(id)
+    if (deleted) {
+      return res.status(200).send('Label deleted')
+    }
+    throw new Error('Label not found')
+  } catch (error) {
+    return res.status(500).send(error.message)
+  }
+}
+
 module.exports = {
   createAlbum,
   getAllAlbums,
@@ -139,5 +205,10 @@ module.exports = {
   getAllSongs,
   getSongById,
   updateSong,
-  deleteSong
+  deleteSong,
+  createLabel,
+  getAllLabels,
+  getLabelById,
+  updateLabel,
+  deleteLabel
 }
