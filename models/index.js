@@ -1,14 +1,14 @@
 const { model } = require('mongoose')
 const AlbumSchema = require('./albums')
 const SongSchema = require('./songs')
-const LabelsSchema = require('./labels')
+const LabelSchema = require('./labels')
 
 const Album = model('albums', AlbumSchema)
 const Song = model('songs', SongSchema)
-const Labels = model('labels', LabelsSchema)
+const Label = model('labels', LabelSchema)
 
 module.exports = {
   Album,
   Song,
-  Labels
+  Label
 }

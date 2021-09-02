@@ -1,5 +1,6 @@
 const Album = require('../models/albums')
 const Song = require('../models/songs')
+const Label = require('../models/labels')
 
 const createAlbum = async (req, res) => {
   try {
