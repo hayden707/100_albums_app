@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const Labels = new Schema(
+const Label = new Schema(
   {
     album: [{ type: Schema.Types.ObjectId, ref: 'albums' }],
     label: { type: String, required: true },
@@ -12,4 +12,4 @@ const Labels = new Schema(
   { timestamps: true }
 )
 
-module.exports = mongoose.model('labels', Labels)
+module.exports = mongoose.model('labels', Label)

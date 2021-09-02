@@ -29,3 +29,9 @@ nav {
   display: flex;
   justify-content: space-evenly;
 }
+
+.label,
+.input {
+  display: inline-block;
+  vertical-align: middle;
+}

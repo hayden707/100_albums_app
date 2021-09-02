@@ -11,6 +11,7 @@ export default function AlbumCard({ albums }) {
           <p>Label: {album.label}</p>
           <p>Genre: {album.genre}</p>
           <a href={album.link}>Link</a>
+          <button>delete</button>
         </div>
       ))}
     </div>
