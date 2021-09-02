@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>New Albums</h1>
       <h3>Friday, September 3</h3>
       <div className="albums">
         <AlbumCard albums={albums} />

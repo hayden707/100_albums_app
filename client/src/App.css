@@ -24,3 +24,8 @@
 .labelLogo {
   height: 75px;
 }
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}

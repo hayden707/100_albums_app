@@ -4,6 +4,7 @@ import Home from './pages/home'
 import Header from './components/header'
 import { Route, Switch } from 'react-router-dom'
 import LabelList from './components/songList'
+import AddAlbum from './components/addAlbum'
 // import {Route, Switch} from 'react-router-dom'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/addalbum" component={AddAlbum} />
           <Route exact path="/labels" component={LabelList} />
         </Switch>
       </main>

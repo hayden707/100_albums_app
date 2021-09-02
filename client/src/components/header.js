@@ -5,8 +5,9 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/labels">Songs</NavLink>
+        <NavLink to="/">home</NavLink>
+        <NavLink to="/addalbum">add an album</NavLink>
+        <NavLink to="/labels">labels</NavLink>
       </nav>
     </header>
   )
