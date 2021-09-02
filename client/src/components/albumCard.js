@@ -1,6 +1,13 @@
 import React from 'react'
+import axios from 'axios'
+import { BASE_URL } from '../global'
 
 export default function AlbumCard({ albums }) {
+  const deleteAlbum = async (e) => {
+    const res = await axios.delete(`${BASE_URL}/albums/${e.target.value}`)
+    return res.data
+    setAlbums()
+  }
   return (
     <div className="albumCard">
       {albums.map((album) => (
@@ -10,8 +17,14 @@ export default function AlbumCard({ albums }) {
           <h4>{album.title}</h4>
           <p>Label: {album.label}</p>
           <p>Genre: {album.genre}</p>
-          <a href={album.link}>Link</a>
-          <button>delete</button>
+          <a href={album.link}>page</a>
+          <button
+            className="deleteButton"
+            onClick={deleteAlbum}
+            value={album._id}
+          >
+            remove album
+          </button>
         </div>
       ))}
     </div>
