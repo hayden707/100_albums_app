@@ -16,7 +16,6 @@ app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(logger('dev'))
-
 app.use('/api', routes)
 app.use('/api/albums', routes)
 
