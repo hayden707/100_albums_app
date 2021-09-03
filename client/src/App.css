@@ -68,3 +68,9 @@ form {
   background-color: black;
   color: white;
 }
+
+.addAlbumButton,
+.addLabelButton {
+  background-color: #1ca0c3;
+  color: white;
+}

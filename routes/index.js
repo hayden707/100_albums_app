@@ -4,8 +4,6 @@ const router = Router()
 
 router.get('/', (req, res) => res.send('This is root!'))
 
-// router.get('/api', (req, res) => res.send('This is api!'))
-
 router.post('/api/albums', controllers.createAlbum)
 router.get('/api/albums', controllers.getAllAlbums)
 router.get('/api/albums/:id', controllers.getAlbumById)

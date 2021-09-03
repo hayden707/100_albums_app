@@ -49,7 +49,7 @@ export default function AddAlbum() {
           className="input"
           type="text"
           name="artist"
-          // required
+          required
           onChange={handleChange}
         ></input>
         <label className="label">title</label>
@@ -57,7 +57,7 @@ export default function AddAlbum() {
           className="input"
           type="text"
           name="title"
-          // required
+          required
           onChange={handleChange}
         ></input>
         <label className="label">label</label>
@@ -65,7 +65,7 @@ export default function AddAlbum() {
           className="input"
           type="text"
           name="label"
-          // required
+          required
           onChange={handleChange}
         ></input>
         <label className="label">genre</label>
@@ -73,7 +73,7 @@ export default function AddAlbum() {
           className="input"
           type="text"
           name="genre"
-          // required
+          required
           onChange={handleChange}
         ></input>
         <label className="label">image link</label>
@@ -81,7 +81,7 @@ export default function AddAlbum() {
           className="input"
           type="text"
           name="image"
-          // required
+          required
           onChange={handleChange}
         ></input>
         <label className="label">page link</label>
@@ -89,7 +89,7 @@ export default function AddAlbum() {
           className="input"
           type="text"
           name="link"
-          // required
+          required
           onChange={handleChange}
         ></input>
         <button className="addAlbumButton" type="submit">

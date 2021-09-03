@@ -44,7 +44,7 @@ export default function AddLabel() {
           className="input"
           type="text"
           name="label"
-          // required
+          required
           onChange={handleChange}
         ></input>
         <label className="label">location</label>
@@ -52,7 +52,7 @@ export default function AddLabel() {
           className="input"
           type="text"
           name="location"
-          // required
+          required
           onChange={handleChange}
         ></input>
         <label className="label">logo</label>
@@ -60,7 +60,7 @@ export default function AddLabel() {
           className="input"
           type="text"
           name="logo"
-          // required
+          required
           onChange={handleChange}
         ></input>
         <label className="label">site</label>
@@ -68,7 +68,7 @@ export default function AddLabel() {
           className="input"
           type="text"
           name="link"
-          // required
+          required
           onChange={handleChange}
         ></input>
         <button className="addLabelButton" type="submit">
