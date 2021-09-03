@@ -19,6 +19,7 @@ function App() {
           <Route exact path="/addlabel" component={AddLabel} />
           <Route exact path="/labels" component={LabelList} />
         </Switch>
+        <h3 className="newAlbums">New Albums | Friday, September 3</h3>
       </main>
     </div>
   )

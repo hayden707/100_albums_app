@@ -4,7 +4,6 @@ import { BASE_URL } from '../global'
 
 export default function LabelList() {
   const [labels, setLabels] = useState([])
-  // const [song, setSong] = useState([])
 
   useEffect(() => {
     async function getLabels() {
@@ -13,6 +12,7 @@ export default function LabelList() {
     }
     getLabels()
   }, [])
+
   return (
     <div className="labelList">
       {labels.map((label) => (
@@ -20,7 +20,7 @@ export default function LabelList() {
           <img className="labelLogo" src={label.logo} alt="Label logo" />
           <p>{label.label}</p>
           <p>{label.location}</p>
-          <a href={label.link}>Link</a>
+          <a href={label.link}>site</a>
         </div>
       ))}
     </div>

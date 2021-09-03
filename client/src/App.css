@@ -1,20 +1,39 @@
 .App {
   text-align: center;
+  font-family: 'Helvetica Neue';
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.title {
+  background-color: #1ca0c3;
   color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navlink {
+  color: black;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.labelLogo {
+  padding-top: 75px;
+}
+
+header {
+  margin-top: 8px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.cardTitles {
+  font-size: 14px;
 }
 
 .albumCover {
@@ -30,8 +49,19 @@ nav {
   justify-content: space-evenly;
 }
 
-.label,
-.input {
-  display: inline-block;
+.albumList {
   vertical-align: middle;
+  padding-bottom: 45px;
+}
+
+form {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.deleteButton {
+  display: block;
+  margin: auto;
 }

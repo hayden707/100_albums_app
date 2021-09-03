@@ -5,10 +5,18 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <NavLink to="/">home</NavLink>
-        <NavLink to="/addalbum">add an album</NavLink>
-        <NavLink to="/addlabel">add a label</NavLink>
-        <NavLink to="/labels">labels</NavLink>
+        <NavLink className="navlink" to="/">
+          home
+        </NavLink>
+        <NavLink className="navlink" to="/addalbum">
+          add an album
+        </NavLink>
+        <NavLink className="navlink" to="/addlabel">
+          add a label
+        </NavLink>
+        <NavLink className="navlink" to="/labels">
+          labels
+        </NavLink>
       </nav>
     </header>
   )
