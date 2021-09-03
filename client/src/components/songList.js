@@ -13,8 +13,6 @@ export default function LabelList() {
     }
     getLabels()
   }, [])
-  console.log(labels)
-
   return (
     <div className="labelList">
       {labels.map((label) => (

@@ -6,7 +6,6 @@ export default function AlbumCard({ albums }) {
   const deleteAlbum = async (e) => {
     const res = await axios.delete(`${BASE_URL}/albums/${e.target.value}`)
     return res.data
-    setAlbums()
   }
   return (
     <div className="albumCard">
