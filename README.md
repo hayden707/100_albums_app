@@ -1,4 +1,4 @@
-# Friday Albums List
+# Friday Albums
 
 ### Date: 8/29/21
 
@@ -8,17 +8,32 @@
 
 ---
 
+![Image](https://i.imgur.com/B9KRYcd.png)
+
+---
+
 **_Description_**
 
-I will be creating an app where users can post albums that are released especially for Bandcamp Fridays. Since the beginning of the COVID-19 pandemic, the music hosting site Bandcamp has designated one Friday a month in which it waves all of its fees so that 100% of sales go directly to the artists. As of now, there is no centralized place where listeners can view a curated list of new releases. My app will allow users to update an open source list of new music released on Bandcamp Fridays each month.
+**Friday Albums** an app where users can post albums that are released especially for Bandcamp Fridays.
+
+Background: Since the beginning of the COVID-19 pandemic, the music hosting site Bandcamp has designated one Friday a month in which it waves all of its fees so that 100% of sales go directly to the artists. As of now, there is no centralized place where listeners can view a single list of new releases. My app allows users to update an open source list of new music released on Bandcamp Fridays each month, as well as the labels that are releasing the albums.
 
 ---
 
 **_Approach_**
 
-To prepare for my project I have mapped out the React structure by creating a Component Hierarchy Diagram, and have visualized the information in the backend with an Entity Relationship Diagram. I've also created a [Trello](https://trello.com/b/K74eYUEB/100-albums) board to plan my approach.
+To prepare for my project I = mapped out the React structure by creating a Component Hierarchy Diagram, and have visualized the information in the backend with an Entity Relationship Diagram. I also created a [Trello](https://trello.com/b/K74eYUEB/100-albums) board to plan my approach. I began the project by building out the backend using Mongoose, then created a front end in React.
 
-![CHD](https://i.imgur.com/7r7j0zs.png)
+---
 
-![ERD](https://i.imgur.com/xiCXyTw.png)
+**_Technologies Used_**
 
+MongoDB, Mongoose, Express, React, Javascript, CSS, HTML
+
+---
+
+**_Future Updates_**
+
+- Overhaul of front-end styling.
+- Add embedded links.
+- Create user authentication and
