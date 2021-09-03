@@ -71,7 +71,9 @@ export default function AddLabel() {
           // required
           onChange={handleChange}
         ></input>
-        <button type="submit">add label</button>
+        <button className="addLabelButton" type="submit">
+          add label
+        </button>
       </form>
     </div>
   )

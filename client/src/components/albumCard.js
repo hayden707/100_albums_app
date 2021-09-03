@@ -18,7 +18,7 @@ export default function AlbumCard({ albums }) {
           <p className="cardTitles">Label: {album.label}</p>
           <p className="cardTitles">Genre: {album.genre}</p>
           <a id="albumButton" className="cardTitles" href={album.link}>
-            page
+            Link to Album
           </a>
           <button
             className="deleteButton"

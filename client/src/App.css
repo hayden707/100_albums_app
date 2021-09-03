@@ -64,4 +64,7 @@ form {
 .deleteButton {
   display: block;
   margin: auto;
+  font-size: 10px;
+  background-color: black;
+  color: white;
 }

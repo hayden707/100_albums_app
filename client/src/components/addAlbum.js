@@ -92,7 +92,9 @@ export default function AddAlbum() {
           // required
           onChange={handleChange}
         ></input>
-        <button type="submit">add album</button>
+        <button className="addAlbumButton" type="submit">
+          add album
+        </button>
       </form>
     </div>
   )
