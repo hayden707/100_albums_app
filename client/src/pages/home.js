@@ -9,6 +9,7 @@ export default function Home() {
   async function getAlbums() {
     const res = await axios.get(`${BASE_URL}/albums`)
     setAlbums(res.data.albums)
+    console.log(res.data.albums)
   }
 
   useEffect(() => {
