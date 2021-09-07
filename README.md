@@ -22,7 +22,7 @@ Background: Since the beginning of the COVID-19 pandemic, the music hosting site
 
 **_Approach_**
 
-To prepare for my project I = mapped out the React structure by creating a Component Hierarchy Diagram, and have visualized the information in the backend with an Entity Relationship Diagram. I also created a [Trello](https://trello.com/b/K74eYUEB/100-albums) board to plan my approach. I began the project by building out the backend using Mongoose, then created a front end in React.
+To prepare for my project I mapped out the React structure by creating a Component Hierarchy Diagram, and have visualized the information in the backend with an Entity Relationship Diagram. I also created a [Trello](https://trello.com/b/K74eYUEB/100-albums) board to plan my approach. I began the project by building out the backend using Mongoose, then created a front end in React.
 
 ---
 
