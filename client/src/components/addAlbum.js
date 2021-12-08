@@ -55,7 +55,7 @@ export default function AddAlbum() {
         <label className="label">title</label>
         <input
           className="input"
-          type="text"
+          type="text" 
           name="title"
           required
           onChange={handleChange}
