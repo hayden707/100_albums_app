@@ -6,22 +6,18 @@ let dbUrl =
     ? process.env.MONGODB_URI
     : 'mongodb://127.0.0.1:27017/fridayAlbumsDatabase'
 
-try {
-  mongoose
-    .connect(dbUrl, {
-      useUnifiedTopology: true,
-      useNewUrlParser: true,
-      useFindAndModify: true
-    })
-    .then(() => {
-      console.log('Successfully connected to MongoDB.')
-    })
-    .catch((e) => {
-      console.error('Connection error', e.message)
-    })
-} catch {
-  handleError(error)
-}
+mongoose
+  .connect(dbUrl, {
+    useUnifiedTopology: true,
+    useNewUrlParser: true,
+    useFindAndModify: true
+  })
+  .then(() => {
+    console.log('Successfully connected to MongoDB.')
+  })
+  .catch((e) => {
+    console.error('Connection error', e.message)
+  })
 
 mongoose.set('debug', true)
 const db = mongoose.connection
