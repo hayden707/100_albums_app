@@ -17,7 +17,7 @@ export default function Home() {
     getAlbums()
     // console.log(albums)
     // }, [BASE_URL])
-  }, [])
+  }, [BASE_URL])
 
   return (
     <div>
