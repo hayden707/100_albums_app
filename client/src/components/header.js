@@ -8,7 +8,7 @@ export default function Header() {
         <NavLink className="navlink" to="/">
           new albums
         </NavLink>
-        <NavLink className="navlink" to="/addalbum">
+        <NavLink className="navlink" to="/newaddalbum">
           add an album
         </NavLink>
         <NavLink className="navlink" to="/addlabel">

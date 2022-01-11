@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
 .App {
   text-align: center;
-  font-family: 'Helvetica Neue';
+  font-family: 'Mukta', sans-serif;
   color: black;
+  background-color: white;
+  height: 100vh;
+  margin: 0;
 }
 
 .title {
-  background-color: #1ca0c3;
-  color: white;
+  font-family: 'Mukta', sans-serif;
+  font-size: 2em;
+  color: black;
   height: 50px;
   display: flex;
   align-items: center;
@@ -49,10 +55,53 @@ nav {
   justify-content: space-evenly;
 }
 
+/* grid start */
+
 .albumList {
-  vertical-align: middle;
+  /* vertical-align: middle; */
   padding-bottom: 45px;
 }
+
+.alb-grid {
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  justify-items: center;
+  align-items: center;
+  max-width: 170px;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.alb-img-div {
+  grid-row-start: 1;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.alb-text-div {
+  grid-row-start: 2;
+  line-height: 0.5em;
+}
+
+.albumCard {
+  text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+.alb-title {
+  line-height: 1em;
+  font-size: 14px;
+}
+
+/*grid end */
 
 form {
   display: inline-flex;
@@ -69,8 +118,21 @@ form {
   color: white;
 }
 
-.addAlbumButton,
+/* .addAlbumButton,
 .addLabelButton {
-  background-color: #1ca0c3;
+  background-color: black;
   color: white;
+  font-weight: bold;
+} */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+button {
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
 }

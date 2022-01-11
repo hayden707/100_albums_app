@@ -6,6 +6,7 @@ import { Route, Switch } from 'react-router-dom'
 import LabelList from './components/songList'
 import AddAlbum from './components/addAlbum'
 import AddLabel from './components/addLabel'
+import NewAddAlbum from './components/newAddAlbum'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/addalbum" component={AddAlbum} />
           <Route exact path="/addlabel" component={AddLabel} />
           <Route exact path="/labels" component={LabelList} />
+          <Route exact path="/newaddalbum" component={NewAddAlbum} />
         </Switch>
       </main>
     </div>

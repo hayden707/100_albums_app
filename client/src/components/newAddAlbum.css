@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+.album-img {
+  max-height: 10em;
+}
+
+.album-info {
+  margin-top: 2em;
+}
+
+.heading {
+  font-family: 'Mukta', sans-serif;
+  font-size: 2em;
+  color: black;
+  margin-bottom: 4px;
+}
+
+.plant-img {
+  max-height: 12em;
+  margin-bottom: 12px;
+}
+
+.submit-button {
+  margin-top: 6px;
+}

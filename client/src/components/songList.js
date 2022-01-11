@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { BASE_URL } from '../global'
+import './songList.css'
 
 export default function LabelList() {
   const [labels, setLabels] = useState([])

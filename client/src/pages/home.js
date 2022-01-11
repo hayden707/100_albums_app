@@ -15,9 +15,7 @@ export default function Home() {
 
   useEffect(() => {
     getAlbums()
-    // console.log(albums)
-    // }, [BASE_URL])
-  }, [BASE_URL])
+  }, [])
 
   return (
     <div>

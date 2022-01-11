@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import { BASE_URL } from '../global'
+import './addLabel.css'
 
 export default function AddLabel() {
   const [newLabel, setNewLabel] = useState({
@@ -37,7 +38,7 @@ export default function AddLabel() {
 
   return (
     <div>
-      <h3>add a label</h3>
+      <h3 className="label-header">Add a Label</h3>
       <form className="searchform" onSubmit={handleSubmit}>
         <label className="label">label</label>
         <input
@@ -71,9 +72,11 @@ export default function AddLabel() {
           required
           onChange={handleChange}
         ></input>
-        <button className="addLabelButton" type="submit">
-          add label
-        </button>
+        <div className="button-div">
+          <button className="addLabelButton" type="submit">
+            add label
+          </button>
+        </div>
       </form>
     </div>
   )
