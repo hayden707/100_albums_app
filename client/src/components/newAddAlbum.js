@@ -47,7 +47,7 @@ export default function NewAddAlbum() {
   }
 
   const scrape = (site) => {
-    axios(site).then((res) => {
+    axios(`https://thingproxy.freeboard.io/fetch/` + site).then((res) => {
       const html = res.data
       const $ = cheerio.load(html)
       const genreList = []
