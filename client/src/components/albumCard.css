@@ -1,7 +1,10 @@
 .alb-artist {
   line-height: 1.5;
+  margin-bottom: 2px;
 }
 
 .alb-title {
   line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 2px;
 }
