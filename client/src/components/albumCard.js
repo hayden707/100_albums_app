@@ -1,6 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import { BASE_URL } from '../global'
+import './albumCard.css'
 
 export default function AlbumCard({ albums }) {
   const deleteAlbum = async (e) => {
@@ -22,7 +23,7 @@ export default function AlbumCard({ albums }) {
                 />
               </div>
               <div className="alb-text-div">
-                <h4>{album.artist}</h4>
+                <h4 className="alb-artist">{album.artist}</h4>
                 <h4 className="alb-title">{album.title}</h4>
                 {/* <p className="cardTitles">Label: {album.label}</p> */}
                 <p className="cardTitles">Genre: {album.genre}</p>
